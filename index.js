@@ -117,7 +117,7 @@ function createRock(x) {
      * the GAME, we want to move it again.
      */
       
-      if (temp_top < 360) {
+      if (temp_top < 380) {
         temp_top += ROCK_SPEED;
         ROCKS[i].style.top = `${temp_top}px`;
       }
